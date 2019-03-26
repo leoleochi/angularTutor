@@ -1,50 +1,45 @@
 
-.connn{
-  display: inline-block;
-  border-bottom: 4px solid mediumseagreen;
-  border-top: 4px solid mediumseagreen;
-  border-left: 4px solid mediumseagreen;
-  border-right: 4px solid mediumseagreen;
-  width: 100%;
-}
 
-.leftBox{
-  width: 200px;
-  height: 200px;
+
+.midBox{
+  text-align: center; /*让div内部文字居中*/
+  border-radius: 10px;
+  width: 400px;
+  height: 360px;
+  margin: auto;
   position: absolute;
-  border-bottom:5px solid mediumvioletred;
-  border-top: 5px solid mediumvioletred;
-  border-left: 5px solid mediumvioletred;
-  border-right: 5px solid mediumvioletred;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
 }
-.leftcontext{
-  top: 20px;
+.loginbutton{
+  width: 300px;
+  height: 60px;
+  background: deeppink;
   position: relative;
-  padding-left: 50px;
-  list-style-type: disc;
-  color: mediumvioletred;
+  color: gainsboro;
+  margin-top: 20px
 }
-.sect{
-  margin-left: 200px;
-  height: 70px;
-  border-bottom: 4px solid gold;
-  border-top: 4px solid gold;
-  border-left: 4px solid gold;
-  border-right: 4px solid gold;
-  padding-top: 18px;
-  padding-left: 12px;
 
+.inputarea1{
+  position: relative;
+  width: 300px;
+  height: 55px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: gainsboro;
 }
-.section2{
-  margin-left: 200px;
-  height: 120px;
-  border-bottom: 4px solid gold;
-  border-top: 4px solid gold;
-  border-left: 4px solid gold;
-  border-right: 4px solid gold;
-  padding-top: 5px;
-  padding-left: 12px;
-  display: inline-block;
+.inputarea2{
+  position: relative;
+  width: 300px;
+  height: 55px;
+  margin-bottom: 10px;
+  margin-top: 20px;
   background: gainsboro;
 
+}
+.lastone{
+  margin-top: 20px;
 }
