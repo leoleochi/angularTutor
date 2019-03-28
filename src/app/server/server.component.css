@@ -14,32 +14,34 @@
   bottom: 0;
   background: white;
 }
-.loginbutton{
-  width: 300px;
-  height: 60px;
-  background: deeppink;
-  position: relative;
-  color: gainsboro;
-  margin-top: 20px
-}
 
-.inputarea1{
-  position: relative;
-  width: 300px;
-  height: 55px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  background: gainsboro;
-}
-.inputarea2{
-  position: relative;
-  width: 300px;
-  height: 55px;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  background: gainsboro;
+.topp{
+  font-size: 40px;
+  color:white;
+  margin-top: 80px;
+  display: flex;
 
 }
-.lastone{
-  margin-top: 20px;
+
+.middd{
+  color: white;
+  margin-top: 80px;
+  font-size: 20px;
+  display: flex;
+}
+
+.flexbox{
+  display: flex;
+  margin-top: 100px;
+  position: center;
+  background: transparent;
+
+}
+
+.buttons{
+  width: 110px;
+  border-radius: 6px;
+  background-color: transparent;
+  color: white;
+
 }
